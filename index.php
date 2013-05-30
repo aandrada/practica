@@ -15,6 +15,14 @@
             }
             sumar($num1, $num2);
             ?>
+            
+            <?php
+            function restar($num1, $num2){
+                $resultat_resta = $num1- $num2;
+                return $resultat_resta;
+            }
+            restar ($num1, $num2);
+            ?>
         </body>
     </html>
 
