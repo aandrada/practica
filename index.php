@@ -17,11 +17,11 @@
             ?>
             
             <?php
-            function restar($num1, $num2){
-                $resultat_resta = $num1- $num2;
-                return $resultat_resta;
+            function multiplicar($num1, $num2){
+                $resultat_multi = $num1- $num2;
+                return $resultat_multi;
             }
-            restar ($num1, $num2);
+            multiplicar ($num1, $num2);
             ?>
         </body>
     </html>
